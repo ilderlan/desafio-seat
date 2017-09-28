@@ -21,6 +21,7 @@ public class NumeroPalindromico {
 			fimDoIntervalo =leitor.nextInt();
 		}catch (Exception e) {
 			System.out.println("Valor digitado invalido.");
+			return;
 		}
 		
 		rotulo:for(int i = fimDoIntervalo; i >= inicioDoIntervalo; i--){			

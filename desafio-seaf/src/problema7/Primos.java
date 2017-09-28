@@ -34,6 +34,7 @@ public class Primos {
 						break;
 				}
 			}
+			
 			if(cont <= 1){
 				++contadorDePrimos;
 				if(contadorDePrimos == primoFinal){

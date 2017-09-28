@@ -6,7 +6,7 @@ public class Primos {
 
 	public static void main(String[] args) {
 		int contadorDePrimos = 0;
-		int primoFinal = 10001;
+		int primoFinal = 0;
 		
 		Scanner leitor = new Scanner(System.in);
 		
